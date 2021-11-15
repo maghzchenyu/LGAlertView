@@ -1672,9 +1672,9 @@ LGAlertViewType;
 
     [keyWindow endEditing:YES];
 
-    if (!hidden && keyWindow != LGAlertViewHelper.appWindow) {
-        keyWindow.hidden = YES;
-    }
+//    if (!hidden && keyWindow != LGAlertViewHelper.appWindow) {
+//        keyWindow.hidden = YES;
+//    }
 
     [self.window makeKeyAndVisible];
 
